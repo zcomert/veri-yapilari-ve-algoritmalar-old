@@ -59,5 +59,23 @@ namespace ArrayTests
             Assert.Equal(array.Length, clonedArray.Length);
             Assert.NotEqual(array.GetHashCode(), clonedArray.GetHashCode());
         }
+
+        [Fact]
+        public void Array_GetEnumerator_Test()
+        {
+            // arrange 
+            var array = new DataStructures.Arrray.Array(10, 20, 30);
+
+            // act
+            string s = "";
+            foreach (var item in array)
+            {
+                s += item;
+            }
+
+            // assert
+            Assert.Equal("102030", s);
+        }
+
     }
 }
