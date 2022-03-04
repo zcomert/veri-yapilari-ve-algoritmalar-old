@@ -1,13 +1,24 @@
 # MYAZ206 Veri Yapıları ve Algoritmalar Dersi
 Veri yapıları ve algoritmalar, bilgisayar bilimleri açısından temel teşkil eden önemli bir alan olarak görülmelidir. Veri yapıları ve algoritmalar, problemlere mantıksal çözümler geliştirmenin ve aynı zamanda görevleri en iyi şekilde yerine getiren verimli programlar oluşturmanın temel yapı taşlarını oluşturdukları için bilgisayar biliminin önemli yönlerini oluştururlar.
 
-# Birinci Bölüm
+# Veri Yapıları ve Algoritmalara Giriş
 - Veri Yapılarına Giriş
 - Veri Tipleri
-- Referans Tipler ve Değer Tipler
+- Referans Tipler (class) ve Değer Tipler (struct)
 - ref, out, params ve in parametre düzenleyicileri 
 
-# İkinci Bölüm
+# Diziler
 - Diziler (Array)
-- Dinamik Diziler (ArrayList)
-- Generic Diziler (List<T>)
+- Dizi Tasarımı ve Uygulamaları
+- Dinamik Diziler 
+- Generic Diziler
+
+# Koleksiyonlar
+- Generic Olmayan Koleksiyonlar
+  - ArrayList
+  - Hashtable
+- Generic Koleksiyonlar
+  - List<T>
+  - Dictionary<TKey, TValue>
+  - SortedList
+  - HashSet
