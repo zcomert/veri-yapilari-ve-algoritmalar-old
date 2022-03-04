@@ -1,8 +1,6 @@
 # MYAZ206 Veri Yapıları ve Algoritmalar Dersi
 Veri yapıları ve algoritmalar, bilgisayar bilimleri açısından temel teşkil eden önemli bir alan olarak görülmelidir. Veri yapıları ve algoritmalar, problemlere mantıksal çözümler geliştirmenin ve aynı zamanda görevleri en iyi şekilde yerine getiren verimli programlar oluşturmanın temel yapı taşlarını oluşturdukları için bilgisayar biliminin önemli yönlerini oluştururlar.
 
-![GitHub Dark](https://i.ytimg.com/vi/8HgTKh-ik30/hqdefault.jpg)
-
 Eğitime ait Youtube içerikleri için 
 
 ## [Youtube Oynama Listesi](https://www.youtube.com/watch?v=8HgTKh-ik30&list=PLK37qYAhi0EfUz9ztgca3sJYn68FIxWxk)
