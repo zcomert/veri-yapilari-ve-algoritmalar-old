@@ -15,6 +15,7 @@ https://www.youtube.com/watch?v=8HgTKh-ik30&list=PLK37qYAhi0EfUz9ztgca3sJYn68FIx
 - Dizi Tasarımı ve Uygulamaları
 - Dinamik Diziler 
 - Generic Diziler
+- Test Çalışmaları
 
 # Koleksiyonlar
 - Generic Olmayan Koleksiyonlar
@@ -25,3 +26,4 @@ https://www.youtube.com/watch?v=8HgTKh-ik30&list=PLK37qYAhi0EfUz9ztgca3sJYn68FIx
   - Dictionary<TKey, TValue>
   - SortedList
   - HashSet
+- Test Çalışmaları
