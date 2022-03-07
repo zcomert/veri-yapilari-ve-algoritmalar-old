@@ -4,7 +4,7 @@ namespace DataStructures.Arrray
 {
     public class Array : ICloneable, IEnumerable
     {
-        private Object[] InnerArray { get; set; }
+        protected Object[] InnerArray { get; set; }
         public int Length => InnerArray.Length;
 
         public Array(int defaultSize=16)
@@ -41,6 +41,7 @@ namespace DataStructures.Arrray
         public IEnumerator GetEnumerator()
         {
             return InnerArray.GetEnumerator();
+            // return new CustomArrayEnumerator(InnerArray);
         }
     }
 }
