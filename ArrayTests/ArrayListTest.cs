@@ -1,5 +1,6 @@
 ﻿using DataStructures.Arrray;
 using System;
+using System.Collections.Generic;
 using Xunit;
 
 namespace ArrayTests
@@ -57,7 +58,7 @@ namespace ArrayTests
             Assert.Equal(len, _arrayList.Length);
 
             // Act
-            for (int i = _arrayList.Length-1; i > 8; i--)
+            for (int i = _arrayList.Length - 1; i > 8; i--)
             {
                 _arrayList.Remove();
             }
@@ -88,6 +89,40 @@ namespace ArrayTests
 
             // assert
             Assert.Equal("ab", s);
+        }
+
+        [Fact]
+        public void ArrayList_Constructor_With_IEnumerable_Test()
+        {
+            // arrange
+            var list = new List<int> { 1, 2, 3 };
+
+            // act
+            var _arr = new DataStructures.Arrray.ArrayList(list);
+            string s = "";
+            foreach (var item in _arr)
+            {
+                s += item;
+            }
+
+            // assert
+            Assert.Equal("123", s);
+        }
+
+        [Fact]
+        public void IndexOf_Test()
+        {
+            // arrange 
+            // a,b,c
+            _arrayList.Add("a");
+            _arrayList.Add("b");
+            _arrayList.Add("c");
+
+            // act
+            var result = _arrayList.IndexOf("c");
+
+            // Assert
+            Assert.Equal(2, result);
         }
     }
 }
