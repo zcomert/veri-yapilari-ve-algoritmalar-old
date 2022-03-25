@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 
-namespace DataStructures.Arrray
+namespace DataStructures.Array
 {
-    public class ArrayList : DataStructures.Arrray.Array, IEnumerable
+    public class ArrayList : DataStructures.Array.Array, IEnumerable
     {
         private int position;
         public int Count => position;

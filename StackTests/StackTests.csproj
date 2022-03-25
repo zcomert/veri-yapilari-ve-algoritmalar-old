@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Arrray\Array.csproj" />
+    <ProjectReference Include="..\Stack\Stack.csproj" />
   </ItemGroup>
 
 </Project>

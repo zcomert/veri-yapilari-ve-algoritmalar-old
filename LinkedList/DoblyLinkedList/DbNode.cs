@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructrues.LinkedList.DoblyLinkedList
+namespace DataStructures.LinkedList.DoblyLinkedList
 {
     public class DbNode<T>
     {

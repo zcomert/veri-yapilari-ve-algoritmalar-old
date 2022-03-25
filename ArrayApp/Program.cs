@@ -22,7 +22,7 @@ foreach (var item in arr)
     Console.WriteLine(item);
 }
 
-var _arr = new DataStructures.Arrray.Array(1, 2, 3);
+var _arr = new DataStructures.Array.Array(1, 2, 3);
 foreach (var item in _arr)
 {
     Console.WriteLine(item);

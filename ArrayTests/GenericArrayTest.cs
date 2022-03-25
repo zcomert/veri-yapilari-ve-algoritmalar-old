@@ -1,4 +1,4 @@
-﻿using DataStructures.Arrray.Generic;
+﻿using DataStructures.Array.Generic;
 using System.Collections.Generic;
 using Xunit;
 

@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace DataStructures.Arrray
+namespace DataStructures.Array
 {
     public class CustomArrayEnumerator : IEnumerator
     {

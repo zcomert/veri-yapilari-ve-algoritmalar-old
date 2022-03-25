@@ -1,4 +1,4 @@
-﻿using DataStructures.Arrray;
+﻿using DataStructures.Array;
 using System;
 using System.Collections.Generic;
 using Xunit;
@@ -98,7 +98,7 @@ namespace ArrayTests
             var list = new List<int> { 1, 2, 3 };
 
             // act
-            var _arr = new DataStructures.Arrray.ArrayList(list);
+            var _arr = new DataStructures.Array.ArrayList(list);
             string s = "";
             foreach (var item in _arr)
             {

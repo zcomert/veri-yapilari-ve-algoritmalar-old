@@ -1,4 +1,4 @@
-using DataStructures.Arrray;
+using DataStructures.Array;
 using Xunit;
 
 namespace ArrayTests
@@ -24,7 +24,7 @@ namespace ArrayTests
         public void Check_Array_Constructor_with_params()
         {
             // Arrange & Act
-            var array = new DataStructures.Arrray.Array(1, 2, 3, 4, 5);
+            var array = new DataStructures.Array.Array(1, 2, 3, 4, 5);
             // Assert
             Assert.Equal(5, array.Length);
         }
@@ -33,7 +33,7 @@ namespace ArrayTests
         public void Get_and_Set_Values_in_Array()
         {
             // Arrange
-            var array = new DataStructures.Arrray.Array();
+            var array = new DataStructures.Array.Array();
 
             // Act
             array.SetValue(10, 0);
@@ -49,10 +49,10 @@ namespace ArrayTests
         public void Array_Clone_Test()
         {
             // arrange
-            var array = new DataStructures.Arrray.Array(1, 2, 3);
+            var array = new DataStructures.Array.Array(1, 2, 3);
 
             // act
-            var clonedArray = array.Clone() as DataStructures.Arrray.Array;
+            var clonedArray = array.Clone() as DataStructures.Array.Array;
 
             // Assert
             Assert.NotNull(clonedArray);
@@ -64,7 +64,7 @@ namespace ArrayTests
         public void Array_GetEnumerator_Test()
         {
             // arrange 
-            var array = new DataStructures.Arrray.Array(10, 20, 30);
+            var array = new DataStructures.Array.Array(10, 20, 30);
 
             // act
             string s = "";

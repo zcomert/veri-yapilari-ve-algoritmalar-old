@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures.Arrray.Generic
+namespace DataStructures.Array.Generic
 {
     public class Array<T> : ICloneable, IEnumerable<T>
     {
