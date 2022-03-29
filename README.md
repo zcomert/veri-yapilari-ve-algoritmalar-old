@@ -28,8 +28,16 @@ Eğitime ait Youtube içerikleri için
   - SortedList
   - HashSet
 - Test Çalışmaları
+
 # Bağlı Liste (Linked List)
 - SinglyLinkedList
 - DoublyLinkedList
 - CircularLinkedList
+- Test Çalışmaları
+
+# Yığın (Stack)
+- ArrayStack
+- LinkedListStack
+- IStack
+- Stack
 - Test Çalışmaları
