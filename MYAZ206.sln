@@ -55,6 +55,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queue", "Queue", "{32601C16
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueTests", "QueueTests\QueueTests.csproj", "{6407E029-A5A9-4CEB-8F37-5D6ADCC1C770}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infix-To-Postfix", "Infix-To-Postfix\Infix-To-Postfix.csproj", "{14A8D98A-1166-41F8-891B-7D8181B0CCB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,10 @@ Global
 		{6407E029-A5A9-4CEB-8F37-5D6ADCC1C770}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6407E029-A5A9-4CEB-8F37-5D6ADCC1C770}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6407E029-A5A9-4CEB-8F37-5D6ADCC1C770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A8D98A-1166-41F8-891B-7D8181B0CCB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A8D98A-1166-41F8-891B-7D8181B0CCB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A8D98A-1166-41F8-891B-7D8181B0CCB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A8D98A-1166-41F8-891B-7D8181B0CCB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -152,6 +158,7 @@ Global
 		{0275F496-CDE0-45AC-BD2A-2746B87E1C7C} = {8DE0EC7E-5133-4AC9-866F-EE87102A34B6}
 		{32601C16-E97A-413C-BE46-DAAB6DDA4641} = {C7F6E205-7446-4CCE-83E9-77F92D79FB7C}
 		{6407E029-A5A9-4CEB-8F37-5D6ADCC1C770} = {32601C16-E97A-413C-BE46-DAAB6DDA4641}
+		{14A8D98A-1166-41F8-891B-7D8181B0CCB0} = {8DE0EC7E-5133-4AC9-866F-EE87102A34B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {228B10E9-C319-4DC0-A77D-321B76C3B424}
