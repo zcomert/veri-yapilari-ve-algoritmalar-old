@@ -42,7 +42,7 @@ Eğitime ait Youtube içerikleri için
 - Stack
 - Test Çalışmaları
   
-  # Kuyruk (Queue)
+# Kuyruk (Queue)
 - ArrayQueue
 - LinkedListQueue
 - IQueue
