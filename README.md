@@ -47,3 +47,12 @@ Eğitime ait Youtube içerikleri için
 - LinkedListQueue
 - IQueue
 - Test Çalışmaları
+  
+ # Asimptotik Notasyonlar (Asymptotic Notations)
+ - Big O
+ - Rekürsif Fonksiyonlar (Recursion function)
+    - Faktöriyel Fonksiyonu (Factorial Function)
+    - İkili Arama (Binary Search)
+    - Yerine Koyma Yöntemi (Substitution method)
+    - İterasyon Yöntemi (Iteration method)
+    - Ana teorem (Master Theorem)
