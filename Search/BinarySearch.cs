@@ -2,11 +2,11 @@
 {
     public class BinarySearch
     {
+
         public static int Search<T>(T[] input, T key) where T : IComparable<T>
         {
             return search(input, 0, input.Length - 1, key);
         }
-
         private static int search<T>(T[] input, int i, int j, T key) where T : IComparable<T>
         {
             while (true)

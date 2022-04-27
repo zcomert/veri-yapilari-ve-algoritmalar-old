@@ -20,8 +20,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Search\Search.csproj" />
-  </ItemGroup>
-
 </Project>
