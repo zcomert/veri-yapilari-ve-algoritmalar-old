@@ -56,3 +56,15 @@ Eğitime ait Youtube içerikleri için
     - Yerine Koyma Yöntemi (Substitution method)
     - İterasyon Yöntemi (Iteration method)
     - Ana teorem (Master Theorem)
+  
+# Sıralama Algoritmaları (Sorting Algorithms)
+  - Kabarcık Sıralama (Bubble Sort)
+  - Seçmeli Sıralama (Selection Sort)
+  - Araya Eklemeli Sıralama (Insertion Sort)
+  - Hızlı Sıralama (Quick Sort)
+  - Birleştirmeli Sıralama (Merge Sort)
+
+# Ağaçlar (Trees)
+  - Ağaçlar
+  - İkili Ağaçlar
+  - İkili Arama Ağaçları 
