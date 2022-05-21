@@ -62,6 +62,41 @@ namespace DataStructures.Trees.BinaryTree
             throw new Exception("The insertion operation failed.");
         }
 
+        public static List<T> InOrderIterationTraverse(Node<T> root)
+        {
+
+            if (root == null)
+                return null;
+
+            var list = new List<T>();
+            var stack = new Stack<Node<T>>();
+            bool done = false;
+            Node<T> currentNode = root;
+            while (!done)
+            {
+                if (currentNode != null)
+                {
+                    stack.Push(currentNode);
+                    currentNode = currentNode.Left;
+                }
+                else
+                {
+                    if (stack.Count == 0)
+                    {
+                        done = true;
+                    }
+                    else
+                    {
+                        currentNode = stack.Pop();
+                        list.Add(currentNode.Value);
+                        currentNode = currentNode.Right;
+                    }
+                }
+            }
+
+            return list;
+        }
+
         public static List<Node<T>> LevelOrderTraverse(Node<T> root)
         {
             var list = new List<Node<T>>();
