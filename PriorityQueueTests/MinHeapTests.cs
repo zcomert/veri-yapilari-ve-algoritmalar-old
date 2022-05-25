@@ -1,4 +1,5 @@
 using DataStructures.PriorityQueue;
+using PriorityQueue;
 using Xunit;
 
 namespace PriorityQueueTests
@@ -44,6 +45,20 @@ namespace PriorityQueueTests
                 item => Assert.Equal(4, item),
                 item => Assert.Equal(5, item),
                 item => Assert.Equal(6, item));
+        }
+        [Theory]
+        [InlineData(0, 2)]
+        [InlineData(1, 4)]
+        [InlineData(2, 6)]
+        [InlineData(3, 8)]
+        [InlineData(4, 10)]
+
+        public void GetRightChildIndex_Test(int index, int GetRightIndex)
+        {
+            //arrange
+            var temp = new MaxHeap<int>().GetRightChildIndex(index);
+            //assert
+            Assert.Equal(GetRightIndex, temp);
         }
 
         [Theory]
