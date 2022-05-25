@@ -24,9 +24,9 @@ namespace DataStructures.PriorityQueue
                 Add(item);
         }
 
-        protected int GetLeftChildIndex(int i) => 2 * i + 1;
+        public int GetLeftChildIndex(int i) => 2 * i + 1;
         protected int GetRightChildIndex(int i) => 2 * i + 2;
-        protected int GetParentIndex(int i) => (i - 1) / 2;
+        public int GetParentIndex(int i) => (i - 1) / 2;
 
         protected bool HasLeftChild(int i) =>
             GetLeftChildIndex(i) < position;

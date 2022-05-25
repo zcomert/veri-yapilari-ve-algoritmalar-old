@@ -199,5 +199,68 @@ namespace PriorityQueueTests
 
             Assert.Equal(54, removedItem);
         }
+
+        [Fact]
+        public void ForEach_Test()
+        {
+            // Arrange
+            var maxHeap = new MaxHeap<int>(new int[] { 30, 50, 42, 66, 10, 16, 5 });
+
+            // Assertion
+            Assert.Collection(maxHeap, 
+                x => Assert.Equal(x, 66),
+                x=>Assert.Equal(x,50),
+                x=>Assert.Equal(x,42),
+                x=>Assert.Equal(x,30),
+                x=>Assert.Equal(x,10),
+                x=>Assert.Equal(x,16),
+                x=>Assert.Equal(x,5));
+
+        }
+
+        [Fact]
+        public void ItemRemove_Test()
+        {
+            // Arrange
+            var maxHeap = new MaxHeap<int>(new int[] { 30, 50, 42, 66, 10, 16, 5 });
+            //Act
+            var result = maxHeap.DeleteMinMax();
+            //Assert
+            Assert.Equal(result,66);
+
+            Assert.Collection(maxHeap,
+                x=>Assert.Equal(x,50),
+                x=>Assert.Equal(x,30),
+                x=>Assert.Equal(x,42),
+                x=>Assert.Equal(x,5),
+                x=>Assert.Equal(x,10),
+                x=>Assert.Equal(x,16));
+            
+        }
+
+        [Fact]
+        public void HeapSort_Test()
+        {
+            // Arrange
+            var maxHeap = new MaxHeap<int>(new int[] { 30, 50, 42, 66, 10, 16, 5 });
+            var list = new List<int>();
+            foreach (var item in maxHeap)
+            {
+                list.Add(maxHeap.DeleteMinMax());
+            }
+
+            //Assert
+            Assert.Collection(list,
+                item => Assert.Equal(item,66),
+                item => Assert.Equal(item,50),
+                item => Assert.Equal(item,42),
+                item => Assert.Equal(item,30),
+                item => Assert.Equal(item,16),
+                item => Assert.Equal(item,10),
+                item => Assert.Equal(item,5));
+
+        }
+
+
     }
 }

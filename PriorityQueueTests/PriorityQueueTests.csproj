@@ -24,4 +24,8 @@
     <ProjectReference Include="..\PriorityQueue\PriorityQueue.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
 </Project>
