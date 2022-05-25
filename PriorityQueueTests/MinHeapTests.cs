@@ -29,6 +29,20 @@ namespace PriorityQueueTests
             Assert.Equal(result,leftChildIndex);
         }
 
+        [Theory]
+        [InlineData(1,0)]
+        [InlineData(2,0)]
+        [InlineData(10,4)]
+        [InlineData(20,9)]
+        [InlineData(30,14)]
+        public void GetParentIndex_Test(int index, int parentIndex)
+        {
+            // Act
+            var result = minHeap.GetParentIndex(index);
+            // Assert
+            Assert.Equal(result,parentIndex);
+        }
+
         [Fact]
         public void Count_Test()
         {
