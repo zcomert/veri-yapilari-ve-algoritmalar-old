@@ -7,7 +7,7 @@ namespace DataStructures.PriorityQueue
     {
         public DataStructures.Array.Generic.Array<T> Array { get; private set; }
         
-        public int position;
+        protected int position;
 
         public int Count { get; private set; }
 
