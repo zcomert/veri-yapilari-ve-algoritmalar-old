@@ -13,6 +13,22 @@ namespace PriorityQueueTests
             minHeap = new MinHeap<int>(new int[] { 1, 2, 3, 4, 5, 6 });
         }
 
+        
+        [Theory]
+        [InlineData(0,1)]
+        [InlineData(1,3)]
+        [InlineData(2,5)]
+        [InlineData(3,7)]
+        [InlineData(10,21)]
+        [InlineData(20,41)]
+        public void GetLeftChildIndex_Test(int index, int leftChildIndex)
+        {
+            //act
+            var result = minHeap.GetLeftChildIndex(index);
+            //assert
+            Assert.Equal(result,leftChildIndex);
+        }
+
         [Fact]
         public void Count_Test()
         {
