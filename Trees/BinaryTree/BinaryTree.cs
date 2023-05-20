@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataStructures.Trees.BinaryTree
 {
-    public class BinaryTree<T> : IEnumerable
+    public class BinaryTree<T> : IEnumerable<T>
     {
         public Node<T> Root { get; set; }
         public int Count { get; set; }
@@ -115,10 +115,6 @@ namespace DataStructures.Trees.BinaryTree
             return list;
         }
 
-        public IEnumerator GetEnumerator()
-        {
-            return LevelOrderTraverse(this.Root).GetEnumerator();
-        }
 
         public T Delete(T value)
         {
@@ -129,5 +125,10 @@ namespace DataStructures.Trees.BinaryTree
         {
             throw new NotImplementedException();
         }
+
+        public IEnumerator<T> GetEnumerator() => new BinaryTreeEnumerator<T>(Root);
+
+
+        IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
     }
 }
