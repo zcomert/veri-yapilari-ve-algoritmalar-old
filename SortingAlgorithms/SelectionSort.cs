@@ -24,7 +24,7 @@ namespace SortingAlgorithms
         }
 
         public static void Sort<T>(T[] array,
-            SortDirection sortDirection = SortDirection.Ascending)
+            SortDirection sortDirection = SortDirection.Asceding)
             where T : IComparable
         {
             var comparer = new CustomComparer<T>(sortDirection, Comparer<T>.Default);

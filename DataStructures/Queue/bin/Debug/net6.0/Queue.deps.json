@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Queue/1.0.0": {
+        "dependencies": {
+          "Array": "1.0.0",
+          "LinkedList": "1.0.0"
+        },
+        "runtime": {
+          "Queue.dll": {}
+        }
+      },
+      "Array/1.0.0": {
+        "runtime": {
+          "Array.dll": {}
+        }
+      },
+      "LinkedList/1.0.0": {
+        "runtime": {
+          "LinkedList.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Queue/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Array/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LinkedList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

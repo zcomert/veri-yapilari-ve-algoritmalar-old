@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "LinkedListConsoleApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:59417;http://localhost:59422"
+    }
+  }
+}

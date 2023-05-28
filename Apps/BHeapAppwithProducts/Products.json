@@ -1,0 +1,56 @@
+{
+  "Products": [
+    {
+      "id": 1,
+      "productName": "iPhone 13 Pro Max",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "productName": "Samsung Galaxy S22 Ultra",
+      "price": 999
+    },
+    {
+      "id": 3,
+      "productName": "Google Pixel 6 Pro",
+      "price": 899
+    },
+    {
+      "id": 4,
+      "productName": "iPad Pro (12.9-inch, 2022)",
+      "price": 125
+     
+    },
+    {
+      "id": 5,
+      "productName": "MacBook Pro (14-inch, 2021)",
+      "price": 1485
+      
+    },
+    {
+      "id": 6,
+      "productName": "Dell XPS 13",
+      "price": 999
+    },
+    {
+      "id": 7,
+      "productName": "Microsoft Surface Laptop Studio",
+      "price": 234
+    },
+    {
+      "id": 8,
+      "productName": "Acer Aspire 5",
+      "price": 599
+    },
+    {
+      "id": 9,
+      "productName": "HP Pavilion 15",
+      "price": 699
+    },
+    {
+      "id": 10,
+      "productName": "Lenovo IdeaPad 3",
+      "price": 499
+    }
+  ]
+}

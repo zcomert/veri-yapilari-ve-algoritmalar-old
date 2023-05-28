@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Graph/1.0.0": {
+        "dependencies": {
+          "PriorityQueue": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "Graph.dll": {}
+        }
+      },
+      "Array/1.0.0": {
+        "runtime": {
+          "Array.dll": {}
+        }
+      },
+      "DisjointSet/1.0.0": {
+        "runtime": {
+          "DisjointSet.dll": {}
+        }
+      },
+      "PriorityQueue/1.0.0": {
+        "dependencies": {
+          "Array": "1.0.0",
+          "DisjointSet": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "PriorityQueue.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "runtime": {
+          "Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Graph/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Array/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DisjointSet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PriorityQueue/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -5,7 +5,7 @@ namespace SortingAlgorithms
     public class InsertionSort
     {
         public static T[] Sort<T>(T[] array,
-            SortDirection sortDirection = SortDirection.Ascending)
+            SortDirection sortDirection = SortDirection.Asceding)
             where T : IComparable
         {
             var comparer = new CustomComparer<T>(sortDirection, Comparer<T>.Default);

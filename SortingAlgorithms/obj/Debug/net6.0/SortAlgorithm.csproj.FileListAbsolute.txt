@@ -1,0 +1,12 @@
+C:\Users\PREDATOR\source\repos\MYAZ20420623\DataStructuresAlgorithms\SortAlgorithm\bin\Debug\net6.0\SortAlgorithm.deps.json
+C:\Users\PREDATOR\source\repos\MYAZ20420623\DataStructuresAlgorithms\SortAlgorithm\bin\Debug\net6.0\SortAlgorithm.dll
+C:\Users\PREDATOR\source\repos\MYAZ20420623\DataStructuresAlgorithms\SortAlgorithm\bin\Debug\net6.0\SortAlgorithm.pdb
+C:\Users\PREDATOR\source\repos\MYAZ20420623\DataStructuresAlgorithms\SortAlgorithm\obj\Debug\net6.0\SortAlgorithm.csproj.AssemblyReference.cache
+C:\Users\PREDATOR\source\repos\MYAZ20420623\DataStructuresAlgorithms\SortAlgorithm\obj\Debug\net6.0\SortAlgorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PREDATOR\source\repos\MYAZ20420623\DataStructuresAlgorithms\SortAlgorithm\obj\Debug\net6.0\SortAlgorithm.AssemblyInfoInputs.cache
+C:\Users\PREDATOR\source\repos\MYAZ20420623\DataStructuresAlgorithms\SortAlgorithm\obj\Debug\net6.0\SortAlgorithm.AssemblyInfo.cs
+C:\Users\PREDATOR\source\repos\MYAZ20420623\DataStructuresAlgorithms\SortAlgorithm\obj\Debug\net6.0\SortAlgorithm.csproj.CoreCompileInputs.cache
+C:\Users\PREDATOR\source\repos\MYAZ20420623\DataStructuresAlgorithms\SortAlgorithm\obj\Debug\net6.0\SortAlgorithm.dll
+C:\Users\PREDATOR\source\repos\MYAZ20420623\DataStructuresAlgorithms\SortAlgorithm\obj\Debug\net6.0\refint\SortAlgorithm.dll
+C:\Users\PREDATOR\source\repos\MYAZ20420623\DataStructuresAlgorithms\SortAlgorithm\obj\Debug\net6.0\SortAlgorithm.pdb
+C:\Users\PREDATOR\source\repos\MYAZ20420623\DataStructuresAlgorithms\SortAlgorithm\obj\Debug\net6.0\ref\SortAlgorithm.dll
